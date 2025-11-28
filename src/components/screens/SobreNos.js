@@ -30,7 +30,7 @@ export default function SobreNos() {
 
       <View style={styles.card}>
         <Image
-          source={require("../../../assets/alessandra.png")}
+          source={require("../../../assets/alessandraperfil.jpeg")}
           style={styles.foto}
         />
         <Text style={styles.nome}>Alessandra Miranda</Text>
@@ -39,20 +39,11 @@ export default function SobreNos() {
 
       <View style={styles.card}>
         <Image
-          source={require("../../../assets/joana.png")}
+          source={require("../../../assets/liviaperfil.jpeg")}
           style={styles.foto}
         />
-        <Text style={styles.nome}>Joana Lima</Text>
+        <Text style={styles.nome}>Lívia Araújo</Text>
         <Text style={styles.funcao}>Maquiadora Profissional</Text>
-      </View>
-
-      <View style={styles.card}>
-        <Image
-          source={require("../../../assets/ana.png")}
-          style={styles.foto}
-        />
-        <Text style={styles.nome}>Ana Souza</Text>
-        <Text style={styles.funcao}>Esteticista e Massoterapeuta</Text>
       </View>
 
       <Text style={styles.subtitulo}>Depoimentos</Text>
